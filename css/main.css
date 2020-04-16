@@ -1,0 +1,243 @@
+/****** BASE STYLES ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;	
+	margin: 0 auto;
+}
+
+p {
+	color: #0f3034;
+	font-size: 16px;
+	padding: 0px 300px;
+	text-align: justify;
+}
+
+#work {
+	height: 1450px;
+
+}
+
+#about {
+	height: 650px;
+	
+}
+
+#contact {
+	height: 400px;
+	
+}
+
+/****** GRID ******/
+
+.full-width {
+	width: 100%;
+}
+
+.half-width {
+	width: 50%;
+	margin: 25px auto;
+	padding: 25px auto;
+	height: 350px;
+	float: left;
+}
+
+.third-width {
+	width: 33.3%;
+	margin: 0 auto;
+	float: left;
+}
+
+/****** HEADER ******/
+
+header {
+	height: 500px;
+	background: url('../img/header-image.jpg');
+	background-size: cover;
+	background-position: right center;
+	padding: 0px 100px;
+}
+
+header p {
+	margin: 200px 0px;
+}
+header h1 {
+	font-family: Roboto Slab;
+	font-size: 50px;
+	color: #0f3034;
+	text-align: justify;
+	padding: 300px 0px 0px 300px;
+	line-height: 2.8rem;
+}
+
+header span {
+	color: #e4ece6;
+}
+header h2 {
+	font-family: Roboto;
+	font-size: 20pt;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: justify;
+	color: #0f3034;
+	padding: 0px 0px 0px 300px;
+}
+
+/****** WORK ******/
+
+#work {
+	background-color: #fdf9ec;
+}
+
+#work .full-width {
+	padding: 0px 0px 50px 0px;
+	margin: 0 auto;
+	width: 75%;
+}
+ #work .half-width {
+ 	padding: 0px 0px 50px 0px;
+ }
+
+#work h2 {
+	font-family: Roboto Slab;
+	font-size: 28pt;
+	color: #0f3034;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+	text-transform: uppercase;
+}
+
+#work h3 {
+	font-family: Roboto;
+	font-size: 24pt;
+	color: #0f3034;
+	line-height: .25rem;
+	padding: 0px 0px 50px 0px;
+}
+
+#work p {
+	font-family: Roboto;
+	font-size: 24px;
+	color: #0f3034;
+	padding: 0px 0px 50px 0px;
+	text-align: justify;
+}
+
+#work img {
+	margin: 0px;
+	border: 2px #b7b7b7;
+	border-radius: 10px;
+	width: 90%;
+	height: 100%;
+}
+
+
+/****** ABOUT ******/
+
+#about {
+	background-color: #e4ece6;
+	text-align: justify;
+}
+
+#about .full-width {
+	margin: 0 auto;
+	width: 75%;
+}
+
+#about .half-width {
+	padding: 0px
+}
+
+#about img {
+	padding-bottom: 0px;
+	width: 80%;
+
+}
+
+#about h2 {
+	font-family: Roboto Slab;
+	font-size: 36pt;
+	color: #0f3034;
+	text-align: center;
+	padding: 50px 0px 25px 0px;
+	text-transform: uppercase;
+}
+
+#about h3 {
+	font-family: Roboto Bold;
+	font-size: 24pt;
+	color: #0f3034;
+	line-height: 1.5rem;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+#about p {
+	font-family: Roboto;
+	font-size: 24pt;
+	color: #0f3034;
+	padding: 0px 30px 0px 0px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+	margin-top: -25px;
+	background-color: #0f3034;
+	height: 400px;
+}
+
+#contact h2 {
+	color: #e4ece6;
+	font-size: 28px;
+	padding: 50px 0px 25px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#contact .full-width {
+	width: 75%;
+	margin: auto;
+}
+
+#contact h3 {
+	color: #e4ece6;
+	font-weight: 700;
+	line-height: .25rem;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#contact p {
+	color: #e4ece6;
+	text-align: center;
+	padding: 0px;
+}
+
+#contact img {
+	padding-right: 20px;
+}
+
+#contact a {
+	color: #e4ece6;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	color: #e4ece6;
+}
+
+/****** FOOTER ******/
+
+#footer {
+	background-color: #0f3034;
+	color: #fcca46;
+	text-transform: lowercase;
+}
+
+#footer h3 {
+	width: 100%;
+	text-align: center;
+}
+
+
