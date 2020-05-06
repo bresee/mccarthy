@@ -29,17 +29,22 @@ p {
 }
 
 /****** GRID ******/
+#container {
+	width: 1200px;
+	margin: auto;
+}
 
 .full-width {
 	width: 100%;
+	margin: 0 auto;
 }
 
 .half-width {
 	width: 50%;
 	margin: 25px auto;
-	padding: 25px auto;
 	height: 350px;
 	float: left;
+
 }
 
 .third-width {
@@ -51,15 +56,15 @@ p {
 /****** HEADER ******/
 
 header {
-	height: 500px;
+	height: 700px;
 	background: url('../img/header-image.jpg');
 	background-size: cover;
 	background-position: right center;
-	padding: 0px 100px;
+	margin: -40px auto;
 }
 
 header p {
-	margin: 200px 0px;
+	margin: 0px 0px;
 }
 header h1 {
 	font-family: Roboto Slab;
@@ -67,7 +72,6 @@ header h1 {
 	color: #0f3034;
 	text-align: justify;
 	padding: 300px 0px 0px 300px;
-	line-height: 2.8rem;
 }
 
 header span {
@@ -119,16 +123,15 @@ header h2 {
 	font-family: Roboto;
 	font-size: 24px;
 	color: #0f3034;
-	padding: 0px 0px 50px 0px;
+	padding: 0px 0px 0px 0px;
 	text-align: justify;
 }
 
-#work img {
+#work .half-width img {
 	margin: 0px;
 	border: 2px #b7b7b7;
-	border-radius: 10px;
-	width: 90%;
-	height: 100%;
+	width: 550px;
+	height: 410px;
 }
 
 
@@ -140,7 +143,7 @@ header h2 {
 }
 
 #about .full-width {
-	margin: 0 auto;
+	margin: -48px auto;
 	width: 75%;
 }
 
@@ -148,28 +151,20 @@ header h2 {
 	padding: 0px
 }
 
-#about img {
-	padding-bottom: 0px;
+#about .half-width img {
 	width: 80%;
 
 }
 
-#about h2 {
-	font-family: Roboto Slab;
+#about .full-width h3 {
+	font-family: 'Roboto Slab';
 	font-size: 36pt;
 	color: #0f3034;
 	text-align: center;
-	padding: 50px 0px 25px 0px;
+	font-weight: bold;
+	position: relative;
+	top: 40px;
 	text-transform: uppercase;
-}
-
-#about h3 {
-	font-family: Roboto Bold;
-	font-size: 24pt;
-	color: #0f3034;
-	line-height: 1.5rem;
-	padding-bottom: 25px;
-	text-align: center;
 }
 
 #about p {
@@ -203,8 +198,7 @@ header h2 {
 #contact h3 {
 	color: #e4ece6;
 	font-weight: 700;
-	line-height: .25rem;
-	padding-bottom: 20px;
+	line-height: 20px;
 	text-align: center;
 }
 
@@ -212,10 +206,12 @@ header h2 {
 	color: #e4ece6;
 	text-align: center;
 	padding: 0px;
+	line-height: 20px;
 }
 
-#contact img {
-	padding-right: 20px;
+#contact .third-width img {
+	padding-right: 10px;
+	padding-left: 80px;
 }
 
 #contact a {
@@ -223,9 +219,6 @@ header h2 {
 	text-decoration: none;
 }
 
-#contact a:hover {
-	color: #e4ece6;
-}
 
 /****** FOOTER ******/
 
